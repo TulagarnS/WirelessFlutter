@@ -1,0 +1,494 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/profiles.png
+    - assets/page-1/images/oval.png
+    - assets/page-1/images/wifi.png
+    - assets/page-1/images/oval-DWu.png
+    - assets/page-1/images/pagination.png
+    - assets/page-1/images/profiles-64m.png
+    - assets/page-1/images/mask-group.png
+    - assets/page-1/images/ri-arrow-right-s-line.png
+    - assets/page-1/images/vuesax-bold-calendar-2.png
+    - assets/page-1/images/oval-c6h.png
+    - assets/page-1/images/home.png
+    - assets/page-1/images/icon-more.png
+    - assets/page-1/images/battery.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/profiles-g13.png
+    - assets/page-1/images/bg-iHT.png
+    - assets/page-1/images/bg-QdT.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3.png
+    - assets/page-1/images/battery-Vx1.png
+    - assets/page-1/images/pagination-ZcR.png
+    - assets/page-1/images/oval-B81.png
+    - assets/page-1/images/bg.png
+    - assets/page-1/images/battery-SoF.png
+    - assets/page-1/images/bg-QVB.png
+    - assets/page-1/images/wifi-Ks3.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/avatar.png
+    - assets/page-1/images/bg-Drm.png
+    - assets/page-1/images/profiles-wRw.png
+    - assets/page-1/images/battery-gPX.png
+    - assets/page-1/images/vector-Zru.png
+    - assets/page-1/images/cellular-connection.png
+    - assets/page-1/images/cellular-connection-ATw.png
+    - assets/page-1/images/profiles-EBf.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-ADj.png
+    - assets/page-1/images/battery-BY9.png
+    - assets/page-1/images/oval-NMj.png
+    - assets/page-1/images/home-5PK.png
+    - assets/page-1/images/profiles-4iy.png
+    - assets/page-1/images/oval-bg.png
+    - assets/page-1/images/icon-more-qu7.png
+    - assets/page-1/images/photo.png
+    - assets/page-1/images/icons-fillter-bookmark.png
+    - assets/page-1/images/-1GH.png
+    - assets/page-1/images/vector-8td.png
+    - assets/page-1/images/cl.png
+    - assets/page-1/images/ri-arrow-right-s-line-x8u.png
+    - assets/page-1/images/-XFs.png
+    - assets/page-1/images/vector-zbw.png
+    - assets/page-1/images/cellular-connection-9v5.png
+    - assets/page-1/images/-RNM.png
+    - assets/page-1/images/rectangle.png
+    - assets/page-1/images/vuesax-bold-calendar-2-6Db.png
+    - assets/page-1/images/home-9d7.png
+    - assets/page-1/images/photo-bk1.png
+    - assets/page-1/images/-kAH.png
+    - assets/page-1/images/vuesax-bold-calendar-2-zVs.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-EW1.png
+    - assets/page-1/images/home-ngV.png
+    - assets/page-1/images/wifi-5Qh.png
+    - assets/page-1/images/wifi-nyK.png
+    - assets/page-1/images/vector-sNV.png
+    - assets/page-1/images/icons-fillter-bookmark-68m.png
+    - assets/page-1/images/profiles-bUq.png
+    - assets/page-1/images/oval-k6q.png
+    - assets/page-1/images/cellular-connection-dgR.png
+    - assets/page-1/images/-M41.png
+    - assets/page-1/images/oval-kQD.png
+    - assets/page-1/images/icons-fillter-bookmark-maD.png
+    - assets/page-1/images/icon-more-JAq.png
+    - assets/page-1/images/vector-Xxh.png
+    - assets/page-1/images/profiles-6W1.png
+    - assets/page-1/images/profiles-BGZ.png
+    - assets/page-1/images/ri-arrow-right-s-line-sYh.png
+    - assets/page-1/images/home-E8M.png
+    - assets/page-1/images/vector-D49.png
+    - assets/page-1/images/icon-mobile-signal.png
+    - assets/page-1/images/-HWV.png
+    - assets/page-1/images/oval-SjP.png
+    - assets/page-1/images/oval-bg-RGR.png
+    - assets/page-1/images/icons-fillter-bookmark-uSD.png
+    - assets/page-1/images/oval-bg-8n9.png
+    - assets/page-1/images/-DU9.png
+    - assets/page-1/images/oval-bg-scZ.png
+    - assets/page-1/images/profiles-h8H.png
+    - assets/page-1/images/oval-Vnm.png
+    - assets/page-1/images/-XRw.png
+    - assets/page-1/images/wifi-gy3.png
+    - assets/page-1/images/home-vV3.png
+    - assets/page-1/images/icon-more-fxR.png
+    - assets/page-1/images/wifi-oRf.png
+    - assets/page-1/images/fcat.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-KBs.png
+    - assets/page-1/images/profiles-rxV.png
+    - assets/page-1/images/pepper1-1.png
+    - assets/page-1/images/pagination-Hdf.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-cvq.png
+    - assets/page-1/images/icons-fillter-bookmark-AxM.png
+    - assets/page-1/images/profile.png
+    - assets/page-1/images/cellular-connection-UM3.png
+    - assets/page-1/images/icon-more-27f.png
+    - assets/page-1/images/-8gV.png
+    - assets/page-1/images/-8DT.png
+    - assets/page-1/images/battery-wMF.png
+    - assets/page-1/images/profiles-AUD.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-Pdo.png
+    - assets/page-1/images/oval-gMs.png
+    - assets/page-1/images/icons-fillter-bookmark-bjj.png
+    - assets/page-1/images/oval-Yey.png
+    - assets/page-1/images/-arZ.png
+    - assets/page-1/images/oval-Xmo.png
+    - assets/page-1/images/bg-Vid.png
+    - assets/page-1/images/icon-mobile-signal-eLd.png
+    - assets/page-1/images/battery-9HP.png
+    - assets/page-1/images/oval-NHb.png
+    - assets/page-1/images/icon-mobile-signal-tWq.png
+    - assets/page-1/images/wifi-eku.png
+    - assets/page-1/images/rectangle-1rM.png
+    - assets/page-1/images/profiles-nMK.png
+    - assets/page-1/images/oval-Q7o.png
+    - assets/page-1/images/wifi-Acm.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-xoX.png
+    - assets/page-1/images/profiles-L9s.png
+    - assets/page-1/images/battery-Duf.png
+    - assets/page-1/images/home-unV.png
+    - assets/page-1/images/profile-5S5.png
+    - assets/page-1/images/-2Eq.png
+    - assets/page-1/images/memoji-girls-1-13.png
+    - assets/page-1/images/rectangle-bUq.png
+    - assets/page-1/images/home-8SZ.png
+    - assets/page-1/images/profiles-GHs.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-oHo.png
+    - assets/page-1/images/icons-fillter-bookmark-kTw.png
+    - assets/page-1/images/profiles-iQm.png
+    - assets/page-1/images/profiles-bg.png
+    - assets/page-1/images/wifi-X7B.png
+    - assets/page-1/images/photo-bg.png
+    - assets/page-1/images/memoji-girls-2-11.png
+    - assets/page-1/images/pepper1-1-bTs.png
+    - assets/page-1/images/rectangle-hDw.png
+    - assets/page-1/images/profiles-bg-UKf.png
+    - assets/page-1/images/pepper1-1-HFj.png
+    - assets/page-1/images/memoji-boys-2-25.png
+    - assets/page-1/images/profiles-bg-9tq.png
+    - assets/page-1/images/rectangle-fiV.png
+    - assets/page-1/images/rectangle-Dch.png
+    - assets/page-1/images/oval-7tR.png
+    - assets/page-1/images/rectangle-APP.png
+    - assets/page-1/images/rectangle-c2R.png
+    - assets/page-1/images/rectangle-y9X.png
+    - assets/page-1/images/icon-mobile-signal-6SR.png
+    - assets/page-1/images/-xn1.png
+    - assets/page-1/images/battery-yL9.png
+    - assets/page-1/images/icons-fillter-bookmark-AxM-YZb.png
+    - assets/page-1/images/rectangle-T5P.png
+    - assets/page-1/images/oval-bg-TMP.png
+    - assets/page-1/images/oval-9Bb.png
+    - assets/page-1/images/icon-mobile-signal-5AM.png
+    - assets/page-1/images/rectangle-xAq.png
+    - assets/page-1/images/wifi-jtH.png
+    - assets/page-1/images/wifi-9jB.png
+    - assets/page-1/images/battery-YoF.png
+    - assets/page-1/images/oval-bg-guB.png
+    - assets/page-1/images/oval-bg-zYM.png
+    - assets/page-1/images/icon-more-aKo.png
+    - assets/page-1/images/pagination-beu.png
+    - assets/page-1/images/bg-erq.png
+    - assets/page-1/images/battery-qSV.png
+    - assets/page-1/images/profiles-1hX.png
+    - assets/page-1/images/battery-Xob.png
+    - assets/page-1/images/battery-Shb.png
+    - assets/page-1/images/icon-mobile-signal-mUq.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-fv5.png
+    - assets/page-1/images/bg-C9B.png
+    - assets/page-1/images/icon-more-p5B.png
+    - assets/page-1/images/icons-fillter-bookmark-RCh.png
+    - assets/page-1/images/profiles-grh.png
+    - assets/page-1/images/auto-group-vrtu.png
+    - assets/page-1/images/ph-eye.png
+    - assets/page-1/images/wifi-W3w.png
+    - assets/page-1/images/wifi-aT7.png
+    - assets/page-1/images/mdi-password-outline.png
+    - assets/page-1/images/ph-user-light.png
+    - assets/page-1/images/oval-Wa1.png
+    - assets/page-1/images/battery-LCD.png
+    - assets/page-1/images/icon-mobile-signal-DVP.png
+    - assets/page-1/images/home-9yw.png
+    - assets/page-1/images/icon-mobile-signal-x4D.png
+    - assets/page-1/images/pagination-kPF.png
+    - assets/page-1/images/wifi-ioF.png
+    - assets/page-1/images/oval-bg-brM.png
+    - assets/page-1/images/photo-bg-tmj.png
+    - assets/page-1/images/icon-mobile-signal-YDs.png
+    - assets/page-1/images/pagination-8jw.png
+    - assets/page-1/images/oval-bg-orD.png
+    - assets/page-1/images/-Vky.png
+    - assets/page-1/images/bg-ehK.png
+    - assets/page-1/images/pagination-Qzh.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-uYh.png
+    - assets/page-1/images/icon-more-Zpq.png
+    - assets/page-1/images/photo-bg-4sw.png
+    - assets/page-1/images/wifi-e2Z.png
+    - assets/page-1/images/-CER.png
+    - assets/page-1/images/battery-3Do.png
+    - assets/page-1/images/bg-MfK.png
+    - assets/page-1/images/profiles-CWR.png
+    - assets/page-1/images/bg-E61.png
+    - assets/page-1/images/bg-BG9.png
+    - assets/page-1/images/battery-5zD.png
+    - assets/page-1/images/oval-kuK.png
+    - assets/page-1/images/auto-group-bmmx.png
+    - assets/page-1/images/profiles-p8D.png
+    - assets/page-1/images/auto-group-oxv7.png
+    - assets/page-1/images/bg-X4y.png
+    - assets/page-1/images/icon-mobile-signal-JwP.png
+    - assets/page-1/images/wifi-UnZ.png
+    - assets/page-1/images/icon-more-mad.png
+    - assets/page-1/images/oval-bg-7uP.png
+    - assets/page-1/images/bg-mH7.png
+    - assets/page-1/images/oval-bg-BN5.png
+    - assets/page-1/images/oval-bg-kXX.png
+    - assets/page-1/images/photo-bg-f5w.png
+    - assets/page-1/images/auto-group-gxxq.png
+    - assets/page-1/images/icons-fillter-bookmark-SMj.png
+    - assets/page-1/images/oval-bg-9NM.png
+    - assets/page-1/images/photo-bg-UdT.png
+    - assets/page-1/images/wifi-DkH.png
+    - assets/page-1/images/oval-ypZ.png
+    - assets/page-1/images/profiles-H57.png
+    - assets/page-1/images/icons-fillter-bookmark-YnH.png
+    - assets/page-1/images/icon-more-XTB.png
+    - assets/page-1/images/icon-mobile-signal-iRb.png
+    - assets/page-1/images/pagination-o4H.png
+    - assets/page-1/images/wifi-Q3X.png
+    - assets/page-1/images/battery-Y77.png
+    - assets/page-1/images/icon-mobile-signal-ZFs.png
+    - assets/page-1/images/icon-mobile-signal-A6q.png
+    - assets/page-1/images/bg-6ZK.png
+    - assets/page-1/images/auto-group-ljmx.png
+    - assets/page-1/images/battery-gtD.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-Wrh.png
+    - assets/page-1/images/pagination-y7K.png
+    - assets/page-1/images/icon-more-A6q.png
+    - assets/page-1/images/profiles-uhP.png
+    - assets/page-1/images/-mWd.png
+    - assets/page-1/images/rectangle-ePf.png
+    - assets/page-1/images/rectangle-uxy.png
+    - assets/page-1/images/pepper1-1-rr1.png
+    - assets/page-1/images/pepper1-1-re9.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-rAH.png
+    - assets/page-1/images/wifi-NW1.png
+    - assets/page-1/images/pagination-83o.png
+    - assets/page-1/images/profiles-CyT.png
+    - assets/page-1/images/icon-more-7hf.png
+    - assets/page-1/images/icon-more-ipm.png
+    - assets/page-1/images/bg-p69.png
+    - assets/page-1/images/bg-fXK.png
+    - assets/page-1/images/profiles-wG1.png
+    - assets/page-1/images/icon-mobile-signal-he5.png
+    - assets/page-1/images/wifi-9WM.png
+    - assets/page-1/images/pagination-Tc1.png
+    - assets/page-1/images/-cbw.png
+    - assets/page-1/images/bg-ZyF.png
+    - assets/page-1/images/icon-mobile-signal-6Qm.png
+    - assets/page-1/images/auto-group-lyvb.png
+    - assets/page-1/images/icons-fillter-bookmark-zfP.png
+    - assets/page-1/images/battery-VtH.png
+    - assets/page-1/images/auto-group-c1gy.png
+    - assets/page-1/images/rectangle-9R7.png
+    - assets/page-1/images/battery-vXP.png
+    - assets/page-1/images/pepper1-1-jnd.png
+    - assets/page-1/images/ph-eye-6Hj.png
+    - assets/page-1/images/battery-owK.png
+    - assets/page-1/images/ion-chevron-back.png
+    - assets/page-1/images/icon-mobile-signal-Jrh.png
+    - assets/page-1/images/ri-arrow-right-s-line-ceH.png
+    - assets/page-1/images/wifi-sEd.png
+    - assets/page-1/images/wifi-Meu.png
+    - assets/page-1/images/icons-fillter-bookmark-ijf.png
+    - assets/page-1/images/mdi-password-outline-FoK.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-obs.png
+    - assets/page-1/images/icon-mobile-signal-rqB.png
+    - assets/page-1/images/mdi-password-outline-EWH.png
+    - assets/page-1/images/oval-ocZ.png
+    - assets/page-1/images/ph-user-light-6hK.png
+    - assets/page-1/images/wifi-wLH.png
+    - assets/page-1/images/battery-q4H.png
+    - assets/page-1/images/ph-user-light-3g9.png
+    - assets/page-1/images/ic-outline-email.png
+    - assets/page-1/images/icon-mobile-signal-WJq.png
+    - assets/page-1/images/icons-fillter-bookmark-bS5.png
+    - assets/page-1/images/ion-chevron-back-8RK.png
+    - assets/page-1/images/pepper1-1-YSR.png
+    - assets/page-1/images/oval-V6m.png
+    - assets/page-1/images/wifi-eVT.png
+    - assets/page-1/images/home-QjX.png
+    - assets/page-1/images/ph-eye-DU1.png
+    - assets/page-1/images/profiles-ir1.png
+    - assets/page-1/images/profiles-uvV.png
+    - assets/page-1/images/oval-Wjf.png
+    - assets/page-1/images/battery-4WH.png
+    - assets/page-1/images/icon-mobile-signal-phj.png
+    - assets/page-1/images/wifi-iDK.png
+    - assets/page-1/images/wifi-1yX.png
+    - assets/page-1/images/vector-Xuf.png
+    - assets/page-1/images/icon-mobile-signal-6HB.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-EVj.png
+    - assets/page-1/images/vector-iRK.png
+    - assets/page-1/images/rectangle-Vg1.png
+    - assets/page-1/images/photo-E6R.png
+    - assets/page-1/images/-pp5.png
+    - assets/page-1/images/profiles-mQH.png
+    - assets/page-1/images/vector-NKX.png
+    - assets/page-1/images/-Hky.png
+    - assets/page-1/images/home-xXP.png
+    - assets/page-1/images/ri-arrow-right-s-line-kqB.png
+    - assets/page-1/images/profiles-HP3.png
+    - assets/page-1/images/battery-ZrD.png
+    - assets/page-1/images/icon-mobile-signal-7SM.png
+    - assets/page-1/images/battery-g1b.png
+    - assets/page-1/images/battery-XTK.png
+    - assets/page-1/images/-AHK.png
+    - assets/page-1/images/oval-SEq.png
+    - assets/page-1/images/oval-c9K.png
+    - assets/page-1/images/rectangle-3-bg.png
+    - assets/page-1/images/wifi-xBo.png
+    - assets/page-1/images/vector-QT7.png
+    - assets/page-1/images/oval-u2V.png
+    - assets/page-1/images/-AnR.png
+    - assets/page-1/images/rectangle-3-bg-g2q.png
+    - assets/page-1/images/vector-Lrh.png
+    - assets/page-1/images/home-F3K.png
+    - assets/page-1/images/icon-mobile-signal-kKo.png
+    - assets/page-1/images/vector-Qrq.png
+    - assets/page-1/images/battery-bTs.png
+    - assets/page-1/images/oval-Nyj.png
+    - assets/page-1/images/ri-arrow-right-s-line-3cy.png
+    - assets/page-1/images/-34Z.png
+    - assets/page-1/images/wifi-G5j.png
+    - assets/page-1/images/battery-B6D.png
+    - assets/page-1/images/-jSV.png
+    - assets/page-1/images/icon-mobile-signal-DiV.png
+    - assets/page-1/images/profiles-Uvy.png
+    - assets/page-1/images/wifi-3dF.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/profiles-5PT.png
+    - assets/page-1/images/icon-mobile-signal-guK.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-yND.png
+    - assets/page-1/images/-ETP.png
+    - assets/page-1/images/home-uQy.png
+    - assets/page-1/images/oval-gpM.png
+    - assets/page-1/images/oval-xtd.png
+    - assets/page-1/images/profiles-XTb.png
+    - assets/page-1/images/battery-7Tj.png
+    - assets/page-1/images/icons-fillter-bookmark-teZ.png
+    - assets/page-1/images/icons-fillter-bookmark-Tkq.png
+    - assets/page-1/images/-KM7.png
+    - assets/page-1/images/profiles-brM.png
+    - assets/page-1/images/icon-mobile-signal-jiu.png
+    - assets/page-1/images/home-nKo.png
+    - assets/page-1/images/group-88.png
+    - assets/page-1/images/profiles-iRj.png
+    - assets/page-1/images/profiles-WUD.png
+    - assets/page-1/images/icon-mobile-signal-mYZ.png
+    - assets/page-1/images/wifi-uRo.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-JTw.png
+    - assets/page-1/images/group-88-yyP.png
+    - assets/page-1/images/rectangle-3-bg-Kqw.png
+    - assets/page-1/images/-78h.png
+    - assets/page-1/images/rectangle-3-bg-kdK.png
+    - assets/page-1/images/wifi-G3F.png
+    - assets/page-1/images/vector-w4H.png
+    - assets/page-1/images/-ef7.png
+    - assets/page-1/images/group-mJD.png
+    - assets/page-1/images/icon-mobile-signal-k3f.png
+    - assets/page-1/images/battery-aCu.png
+    - assets/page-1/images/battery-oLZ.png
+    - assets/page-1/images/wifi-Mcy.png
+    - assets/page-1/images/home-nB7.png
+    - assets/page-1/images/rectangle-34625591.png
+    - assets/page-1/images/icons-fillter-bookmark-jGZ.png
+    - assets/page-1/images/rectangle-34625591-stroke.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-pdT.png
+    - assets/page-1/images/battery-C9K.png
+    - assets/page-1/images/wifi-Gs7.png
+    - assets/page-1/images/oval-VdP.png
+    - assets/page-1/images/oval-o4R.png
+    - assets/page-1/images/oval-zQM.png
+    - assets/page-1/images/icons-line-add-item-alt-copy-3-hgZ.png
+    - assets/page-1/images/icons-fillter-bookmark-n4m.png
+    - assets/page-1/images/frame.png
+    - assets/page-1/images/battery-f57.png
+    - assets/page-1/images/icon-mobile-signal-N3F.png
+    - assets/page-1/images/profiles-pGu.png
+    - assets/page-1/images/battery-EAR.png
+    - assets/page-1/images/oval-L2R.png
+    - assets/page-1/images/-ni1.png
+    - assets/page-1/images/image-1.png
+    - assets/page-1/images/profiles-fLy.png
+    - assets/page-1/images/wifi-1gR.png
+    - assets/page-1/images/icon-mobile-signal-KjK.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
